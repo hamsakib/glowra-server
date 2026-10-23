@@ -6,6 +6,8 @@ REST API for **Glowra**, a skincare marketplace where people explore, buy, sell 
 - **Live website:** https://glowra-client.vercel.app
 - **Client repository:** https://github.com/hamsakib/glowra-client
 
+![Glowra home page (client) served by this API](docs/screenshot.jpg)
+
 ## Demo credentials
 
 | Role | Email | Password |
@@ -56,6 +58,30 @@ server/
 | `/api/users` | profile, preferences, password, admin user management |
 | `/api/stats` | public, user and admin dashboard statistics |
 | `/api` | health, contact messages, newsletter, blog posts, images, settings |
+
+## Dependencies
+
+| Package | Version |
+| --- | --- |
+| `bcrypt` | ^6.0.0 |
+| `compression` | ^1.8.2 |
+| `cors` | ^2.8.6 |
+| `dotenv` | ^18.0.9 |
+| `express` | ^5.3.0 |
+| `express-rate-limit` | ^8.7.1 |
+| `helmet` | ^8.3.0 |
+| `jsonwebtoken` | ^9.0.3 |
+| `mongoose` | ^9.11.3 |
+| `morgan` | ^1.12.1 |
+| `multer` | ^2.5.0 |
+| `sharp` | ^0.35.5 |
+| `zod` | ^4.6.7 |
+
+Development:
+
+| Package | Version |
+| --- | --- |
+| `mongodb-memory-server` | ^11.3.0 |
 
 ## Run locally
 
