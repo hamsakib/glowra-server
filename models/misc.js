@@ -54,9 +54,9 @@ const settingSchema = new mongoose.Schema(
   {
     key: { type: String, default: "store", unique: true },
     storeName: { type: String, default: "Glowra", trim: true },
-    supportEmail: { type: String, default: "hello@glowra.shop", trim: true },
-    supportPhone: { type: String, default: "+880 1700-000000", trim: true },
-    address: { type: String, default: "Road 11, Banani, Dhaka 1213", trim: true },
+    supportEmail: { type: String, default: "hamsakib03@gmail.com", trim: true },
+    supportPhone: { type: String, default: "+880 1842-001223", trim: true },
+    address: { type: String, default: "Dhaka, Bangladesh", trim: true },
     shippingFeeDhaka: { type: Number, default: 70, min: 0 },
     shippingFeeOutside: { type: Number, default: 130, min: 0 },
     freeShippingThreshold: { type: Number, default: 3000, min: 0 },
