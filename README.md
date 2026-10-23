@@ -2,8 +2,8 @@
 
 REST API for **Glowra**, a skincare marketplace where people explore, buy, sell and review skincare products. Built with Express 5 and MongoDB, with JWT authentication and role-based access for users and admins.
 
-- **Live API:** {{API_URL}} (health check: `{{API_URL}}/api/health`)
-- **Live website:** {{SITE_URL}}
+- **Live API:** https://glowra-server.vercel.app (health check: `https://glowra-server.vercel.app/api/health`)
+- **Live website:** https://glowra-client.vercel.app
 - **Client repository:** https://github.com/hamsakib/glowra-client
 
 ## Demo credentials
